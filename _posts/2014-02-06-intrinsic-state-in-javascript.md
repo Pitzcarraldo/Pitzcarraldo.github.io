@@ -4,7 +4,7 @@ title: "[번역] JavaScript에서의 내부 상태"
 description: "[번역] JavaScript에서의 내부 상태"
 modified: 2014-02-06
 category: articles
-tags: [javascript, kent beck]
+tags: [Javascript, Kent Beck, 켄트 벡, 내부 상태, 외부 상태]
 comments: true
 share: true
 ---

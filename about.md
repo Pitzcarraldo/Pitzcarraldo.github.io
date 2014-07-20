@@ -16,5 +16,4 @@ image:
 ### Profile
 
 이름 : 조민규(Minkyu Cho)
-나머지는 비-밀
 자세한 신상은 [Facebook](http://facebook.com/Pitzcarraldo)/[LinkedIn](http://linkedin.com/pub/minkyu-cho/5b/725/82b)을 참고하세요

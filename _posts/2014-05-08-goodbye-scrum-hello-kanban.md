@@ -4,7 +4,7 @@ title: "[번역] 잘 가요 스크럼, 반가워요 칸반"
 description: "[번역] 잘 가요 스크럼, 반가워요 칸반"
 modified: 2014-05-08
 category: articles
-tags: [agile, kanban, scrum]
+tags: [agile, kanban, scrum, 애자일, 칸반, 스크럼]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: "Callback Hell 과 Promise Pattern"
 description: "Callback Hell 과 Promise Pattern"
 modified: 2013-12-26
 category: articles
-tags: [javascript, callback hell, promise]
+tags: [Javascript, Callback Hell, Promise]
 comments: true
 share: true
 ---
