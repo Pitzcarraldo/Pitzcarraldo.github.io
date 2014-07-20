@@ -43,7 +43,7 @@ timezone:    Asia/Seoul
 future:      true
 pygments:    true
 github: [Repository metadata]
-#highlighter: pygments
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
