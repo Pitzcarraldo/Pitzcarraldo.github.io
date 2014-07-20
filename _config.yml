@@ -5,7 +5,8 @@ disqus_shortname: pitzcarraldo
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              //Pitzcarraldo.github.io/
+url:              //Pitzcarraldo.github.io
+#url:              //localhost:4000
 
 # Owner/author information
 owner:
@@ -54,7 +55,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
+  use_coderay: false
 
   coderay:
     coderay_line_numbers:
