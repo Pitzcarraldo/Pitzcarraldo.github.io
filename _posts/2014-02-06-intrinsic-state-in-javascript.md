@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-Smalltalk Best Practice Patterns [^1] 에서는 객체를 상태와 연결 짓는 두 가지 방법을 정의합니다. 내부 상태, 외부 상태가 그것입니다. 내부 상태는 필드(속성, 인스턴스 변수, 멤버 변수 등)로서 저장되고, 외부 상태는 객체가 키, 벨류로 맵에 저장됩니다.
+Smalltalk Best Practice Patterns [^1](#fn:1) 에서는 객체를 상태와 연결 짓는 두 가지 방법을 정의합니다. 내부 상태, 외부 상태가 그것입니다. 내부 상태는 필드(속성, 인스턴스 변수, 멤버 변수 등)로서 저장되고, 외부 상태는 객체가 키, 벨류로 맵에 저장됩니다.
  
 객체 네이밍을 예로 들면, 객체가 ID를 가질 경우, 그것을 내부에 저장하면,
 
@@ -46,4 +46,4 @@ Map<ID, Foo> foos
 원문 : [Kent Beck's Facebook](http://www.facebook.com/notes/kent-beck/intrinsic-state-in-javascript/709152922450908)
 
 * * *
-[^1]: [Kent Beck의 저서, Smalltalk Best Practice Patterns](http://book.naver.com/bookdb/book_detail.nhn?bid=231103)
+1. <a name="fn:1"></a>[Kent Beck의 저서, Smalltalk Best Practice Patterns](http://book.naver.com/bookdb/book_detail.nhn?bid=231103)

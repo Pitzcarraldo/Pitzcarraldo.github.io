@@ -1,11 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'kramdown'
-gem 'coderay'
+gem 'github-pages'
 gem 'rake'
 gem 'thor'
 gem 'activesupport'
 gem 'stringex'
-gem 'pygments.rb'
-gem 'typogruby'
