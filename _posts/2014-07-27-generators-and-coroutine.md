@@ -132,7 +132,7 @@ co(function*(){
 });
 ```
 
-thunkify()라는 메소드로 Callback을 전달할 함수를 감싸기만 하면, yield를 이용해 값을 전달 받을 수 있는 thunk가 만들어 진다. co()와 thunkify() 둘만 있으면 Callback없이 동기식과 같은 표현방법으로 결과값을 받을 수 있는 것이다! 정말 멋지지 않은가? 표현적인 부분만 봤을 땐, Callback Hell의 완벽한 해결책이라고 생각한다. Co를 이용하면 Callback Hell을 만들어 내는 주범인, Callback result를 이용하여 다시 Callback을 호출하는 문제를 아주 깔끔하게 해결할 수 있다. 다시 Co의 첫번째 예제 코드를 보자. yield가 연달아 3번 선언되어 있다. 이 코드들은 어떻게 동작하게 될까? 앞에서 설명했듯이 Generators 함수는 한번 수행시 yield가 선언된 곳까지만 실행된다. 그렇다면 yield가 한 함수 안에 여러번 선언되어 있다면? 호출될 때 마다 다음 yield를 수행하게 된다. Generators의 예제에서는 yield가 반복문 안에 선언되어 있었기 때문에, 첫번째 yield 다음에 나오는 yield는, 반복문이 다음에 실행하는 yield가 되어 계속해서 다음 값을 반환하게 되는 것이다. Co에서도 그렇다. 첫번째 yield가 thunk를 실행하면 그 thunk는 본래 비동기 함수이기 때문에 비동기로 수행된다. 그리고 내부의 Callback이 결과 값을 반환하면 그 값을 변수에 할당하고 다음 yield까지 진행하게 된다. 다음 yield가 실행되는 시점은 이전 yield의 작업이 종료된 이후이기 때문에 이전 비동기 함수의 결과를 알 수 있고, 그 값을 이용해 새로운 비동기 함수를 수행할 수 있다. 그래서 예제코드의 console.log는 a,b,c 순차적으로 출력하게 된다. 한마디로 Co는 비동기 코드를 동기식으로 작성하기 위한 모듈인 것이다.
+thunkify()라는 메소드로 Callback을 전달할 함수를 감싸기만 하면, yield를 이용해 값을 전달 받을 수 있는 thunk가 만들어 진다. co()와 thunkify() 둘만 있으면 Callback없이 동기식과 같은 표현방법으로 결과값을 받을 수 있는 것이다! 정말 멋지지 않은가? 표현적인 부분만 봤을 땐, Callback Hell의 완벽한 해결책이라고 생각한다. Co를 이용하면 Callback Hell을 만들어 내는 주범인, Callback result를 이용하여 다시 Callback을 호출하는 문제를 아주 깔끔하게 해결할 수 있다. 다시 Co의 첫번째 예제 코드를 보자. yield가 연달아 3번 선언되어 있다. 이 코드들은 어떻게 동작하게 될까? 앞에서 설명했듯이 Generators 함수는 한번 수행시 yield가 선언된 곳까지만 실행된다. 그렇다면 yield가 한 함수 안에 여러번 선언되어 있다면? 호출될 때 마다 다음 yield를 수행하게 된다. Generators의 예제에서는 yield가 반복문 안에 선언되어 있었기 때문에, 첫번째 yield 다음에 나오는 yield는 반복문이 다음에 실행하는 yield가 되어 계속해서 다음 값을 반환하게 되는 것이다. Co에서도 그렇다. 첫번째 yield가 thunk를 실행하면 그 thunk는 본래 비동기 함수이기 때문에 비동기로 수행된다. 그리고 내부의 Callback이 결과 값을 반환하면 그 값을 변수에 할당하고 다음 yield까지 진행하게 된다. 다음 yield가 실행되는 시점은 이전 yield의 작업이 종료된 이후이기 때문에 이전 비동기 함수의 결과를 알 수 있고, 그 값을 이용해 새로운 비동기 함수를 수행할 수 있다. 그래서 예제코드의 console.log는 a,b,c 순차적으로 출력하게 된다. 한마디로 Co는 비동기 코드를 동기식으로 작성하기 위한 모듈인 것이다.
 
 # Co의 다른 기능들
 
@@ -152,7 +152,7 @@ co(function *(){
 })()
 ```
 
-수행의 결과값은 모든 thunk의 실행이 끝나면 배열에 저장된다.
+수행의 결과값은 모든 thunk의 실행이 끝나면 배열로 반환된다.
 
 ### Error Handling
 
@@ -206,7 +206,7 @@ size(function(err, res){
 });
 ```
 
-이것은 하위호환을 위한 것으로, co()를 이용한 함수가 return하는 값이 co를 사용하지 않는 모듈에서 사용할 경우를 고려하여 일반적인 형태의 Callback을 반환하지만, 이 리턴 값을 thunkify 시키면 동기적인 표현을 이어서 사용할 수 있다.
+이것은 하위호환을 위한 것으로, co()를 이용한 함수가 return하는 값이 Co를 사용하지 않는 모듈에서 사용할 경우를 고려하여 일반적인 형태의 Callback을 반환한다. 하지만 이 리턴 값을 thunkify 시키면 동기적인 표현을 이어서 사용할 수 있다.
 
 ```javascript
 var getLength = co(function *(){
@@ -216,7 +216,7 @@ var getLength = co(function *(){
 
 var getSize = thunkify(getLength);
 
-var size = getSize();
+var size = yield getSize();
 console.log(size);
 ```
 
@@ -250,27 +250,27 @@ co(function *(){
 
 Expressive middleware for node.js using generators **via co** to make web applications and APIs more enjoyable to write.
 
-Koa.js는 **Co**를 이용한 표현적인 미들웨어라고 한다. 그렇다. Koa.js는 Co를 이용하여 Callback으로 인해 복잡했던 Node.js 웹 개발을 더 단순하고 직관적으로, 즉 표현적으로 만들기 위한 미들웨어 인 것이다. 지금까지 살펴본 Co의 특징들이라면 충분히 가능할 것 같다. 그리고 TJ가 Node.js를 떠나면서도 왜 Koa.js와 Co의 유지보수는 이어서 하겠다고 한건지도 충분히 납득이 된다. 그가 외쳤던 **Callback Sucks**를 해결할 수 있는 방법이기 때문이다! 굳이 Koa.js를 사용하지 않고, 기존 Node.js 모듈들에 Co만 적용하더라도 가독성과 생산성을 크게 높일 수 있을 것으로 보인다. 그리고 이미 많은 모듈들이 Co로 Wrapping 되어 제공되고 있다.
+Koa.js는 **Co**를 이용한 표현적인 미들웨어라고 한다. 그렇다. Koa.js는 Co를 이용하여 Callback으로 인해 복잡했던 Node.js 웹 개발을 더 단순하고 직관적으로, 즉 표현적으로 만들기 위한 미들웨어 인 것이다. 지금까지 살펴본 Co의 특징들이라면 충분히 가능할 것 같다. 그리고 TJ가 Node.js를 떠나면서도 왜 Koa.js와 Co의 유지보수는 이어서 하겠다고 한건지도 충분히 납득이 된다. 그가 외쳤던 **Callback Sucks**를 해결할 수 있는 방법이기 때문이다! 굳이 Koa.js까지 사용하지 않고, 기존 Node.js 모듈들에 Co만 적용하더라도 가독성과 생산성을 크게 높일 수 있을 것으로 보인다. 그리고 이미 많은 모듈들이 Co로 Wrapping 되어 제공되고 있다.
 
 * [Co Libraries](https://github.com/visionmedia/co/wiki)   
 
 # Co의 한계
 
-그렇다면 Co는 은탄환인가? Generators를 쓸 수 있는 환경이라면 그렇게 보인다. 하지만 Generatros를 설명할 때 언급했던 것 처럼 Generators는 ES6에 도입 **될** 스펙이다. 아직 일반적인 환경에서는 Generators는 쓸 수 없다는 이야기다. Front-end 환경에서는 물론이겠거니와, Node.js에서도 unstable 버전인 0.11에서 --harmony-generators 라는 옵션을 줘야만 사용할 수 있다. 아니면 [gnode](https://github.com/TooTallNate/gnode)와 같은 별도 모듈을 함께 설치해서 사용하거나, [regenerator](http://facebook.github.io/regenerator/)와 같은 도구를 이용해 Generators를 사용한 코드를 기존 환경에서 돌아갈 수 있도록 컨버팅을 해주어야 한다. Grunt나 browserify를 사용하지 않는다면 Front-end에서는 거의 사용을 포기해야한다. 하지만 Node.js의 경우에는 gnode만 설치해준다면 0.10.x 버전 대에서도 문제 없이 실행시킬 수 있으니 그나마 나은 편이다. 즉 지금은 서버환경에서만 사용할 수 있다는 한계가 있다. 그럼 또 다른 문제는 없는가? 기존 Callback 함수를 감싸서 사용 해아하는데, 성능적인 문제는 없는지? Co의 개발자 TJ는 이렇게 설명하고 있다.
+그렇다면 Co는 은탄환인가? Generators를 쓸 수 있는 환경이라면 그렇게 보인다. 하지만 Generatros를 설명할 때 언급했던 것 처럼 Generators는 ES6에 도입 **될** 스펙이다. 아직 일반적인 환경에서는 Generators는 쓸 수 없다는 이야기다. Front End 환경에서는 물론이겠거니와, Node.js에서도 unstable 버전인 0.11에서 --harmony-generators 라는 옵션을 줘야만 사용할 수 있다. 아니면 [gnode](https://github.com/TooTallNate/gnode)와 같은 별도 모듈을 함께 설치해서 사용하거나, [regenerator](http://facebook.github.io/regenerator/)와 같은 도구를 이용해 Generators를 사용한 코드를 기존 환경에서 돌아갈 수 있도록 컨버팅을 해주어야 한다. Front End에서는 Grunt나 browserify를 사용하지 않는다면 거의 사용을 포기해야한다. 하지만 Node.js의 경우에는 gnode만 설치해준다면 stable버전인 0.10.x 대에서도 문제 없이 사용할 수 있으니 그나마 나은 편이다. 즉 지금은 서버환경에서만 사용할 수 있다는 한계가 있다. 그럼 또 다른 문제는 없는가? 기존 Callback 함수를 감싸서 사용 해아하는데, 성능적인 문제는 없는지? Co의 개발자 TJ는 이렇게 설명하고 있다.
 
 On my machine 30,000 sequential stat()s takes an avg of 570ms, while the same number of sequential stat()s with co() takes 610ms, aka the overhead introduced by generators is extremely negligible.
 
-기존의 함수와 co로 감싼 함수의 수행 시간의 차이는 ms 단위로 무시할 수 있는 수준이라고 한다. 그리고 해외에서 이미 Co뿐만 아니라 기존의 Callback 처리 함수들에 대한 벤치마킹을 수행한 결과가 있으니 함께 참고하면 좋을 듯 하다. (성능 뿐만 아니라 다양한 장단점에 대해서 상세히 분석해 놓은 매우 좋은 포스팅이다.)
+기존의 함수와 co로 감싼 함수의 수행 시간의 차이는 ms 단위로 무시할 수 있는 수준이라고 한다. 그리고 이미 Co뿐만 아니라 기존의 Callback 처리 함수들에 대한 벤치마킹을 수행한 포스팅이 있으니 함께 참고하면 좋을 듯 하다. (성능 뿐만 아니라 다양한 장단점에 대해서 상세히 분석해 놓은 매우 좋은 포스팅이다.)
 
 * [Analysis of generators and other async patterns in node](http://spion.github.io/posts/analysis-generators-and-other-async-patterns-node.html)
 
 # Co-ooool!
 
-Co는 정말 Cool한 모듈이다. 적어도 나의 짧은 지식 내에서는 Node.js에서 Callback Hell을 해결할 수 있는 방법들 중엔 가장 Cool하다고 할 수 있다. 기존에 Callback 형식으로 작성했었던 코드들을 Co를 이용하여 리팩토링 한 결과 훨씬 직관적이고 간결해졌으며, 그로 인해 흐름이 한눈에 들어오게 되었다. 개인적으로 마음에 들지 않던 callback(null, result), if(error) throw error; 과 같은 표현들을 보지 않아도 되는 것 역시 마음에 드는 부분이다. thunkify를 이용해 thunk로 감싸줘야하는 작업이 조금 번거롭긴 하지만, 그정도 번거로움은 Co를 통해서 얻을 수 있는 장점으로 모두 상쇄시키고도 남는다고 생각한다. 게다가 promise도 함께 지원하기 때문에, promise를 return하는 함수의 경우 바로 yield로 호출 하여 결과를 받을 수 있다. 최근엔 자체적으로 promise api를 지원하는 모듈들이 많아서 외부 모듈을 사용할 경우엔 thunkify를 해야하는 경우도 그렇게 많지 않을 것이다.
+Co는 정말 Cool한 모듈이다. 적어도 나의 짧은 지식 내에서는 Node.js에서 Callback Hell을 해결할 수 있는 방법들 중엔 가장 Cool하다고 할 수 있다. 기존에 Callback 형식으로 작성했었던 코드들을 Co를 이용하여 리팩토링 한 결과 훨씬 직관적이고 간결해졌으며, 그로 인해 흐름이 한눈에 들어오게 되었다. 개인적으로 마음에 들지 않던 callback(null, result), if(error) throw error; 과 같은 표현들을 보지 않아도 되는 것 역시 마음에 드는 부분이다. thunkify를 이용해 thunk로 감싸줘야하는 작업이 조금 번거롭긴 하지만, 그정도 번거로움은 Co를 통해서 얻을 수 있는 장점으로 모두 상쇄시키고도 남는다고 생각한다. 게다가 promise도 함께 지원하기 때문에, promise를 return하는 함수의 경우 바로 yield로 호출 하여 결과를 받을 수 있다. 최근엔 자체적으로 promise api를 지원하는 모듈들도 많고, 유명한 모듈들의 경우 이미 thunk 형식으로 제공되고 있는 것들도 많아서 적용에 큰 어려움이 없을 것이다. (ex: [co-mocha](https://github.com/ilkkao/co-mocha))
 
-한동안 Callback을 이용한 비동기 개발의 한계 때문에 Node.js를 이용한 개발에 소홀해 있었는데, 많은 사람들이 Node.js에 대해 의문을 가지게 했던 TJ의 포스팅이 나에겐 오히려 Node.js로의 새로운 길을 열어준 통로가 되었다. 나뿐만 아니라 더 많은 사람들이 Co에 대해 알고, Callback 때문에 괴로워하지 않았으면 하는 바람으로 모자란 지식으로 Co에 대해서 정리해 보았다.
+한동안 Callback을 이용한 비동기 개발의 한계 때문에 Node.js를 이용한 개발에 소홀해 있었는데, 많은 사람들이 Node.js에 대해 의문을 가지게 했던 TJ의 포스팅이 나에겐 오히려 Node.js로의 새로운 길을 제시해 준 통로가 되었다. 나뿐만 아니라 더 많은 사람들이 Co에 대해 알고, Callback 때문에 괴로워하지 않았으면 하는 바람으로 모자란 지식으로 Co에 대해서 정리해 보았다.
 
-나름 사용해 본 경험 안에서 기술 할 수 있는 것들은 최대한 기술하고자 했지만, 그래도 부족한 부분이 많을 것이라고 생각한다.
+사용해 본 경험 안에서 기술 할 수 있는 것들은 최대한 기술하고자 했지만, 그래도 부족한 부분이 많을 것이라고 생각한다.
 Generators, Co, Koa.js 등에 대해 더 자세히 알고 싶은 분들은 아래의 링크들을 참고하면 더 풍부한 내용들을 얻을 수 있을 것이다.   
 
 ##### 참고 Site :
