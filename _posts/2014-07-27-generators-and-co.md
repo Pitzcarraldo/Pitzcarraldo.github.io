@@ -178,7 +178,7 @@ function callback(error, data) {
 }
 ```
 
-하지만 Co는 결과값만을 전달 받는다. 즉 일반적인 Callback함수의 두번째 인자만 변수에 전달한다. 그렇다면 첫번째 인자로 Error가 전달 되었을 땐 어떻게 될까? 무조건 Error를 throw하게 된다. 기존의 Node.js 모듈들에서는 Error가 전달되어도 무시할 수 있도록 선택권을 개발자에게 주었지만 Co는 그렇지 않다. Error가 전달되면 무조건 throw를 발생시켜 개발자가 적절하게 Error를 처리하여야 한다. 하지만 이것은 Java의 Exception Handling과 매우 유사하기 때문에, 오히려 정적 언어 개발자들에겐 익숙한 방법이라고 볼 수 있다.
+하지만 Co는 결과값만을 전달 받는다. 즉 일반적인 Callback함수의 두번째 인자만 변수에 전달한다. 그렇다면 첫번째 인자로 Error가 전달 되었을 땐 어떻게 될까? 무조건 Error를 throw하게 된다. 기존의 Node.js 모듈들에서는 Error가 전달되어도 무시할 수 있도록 선택권을 개발자에게 주었지만 Co는 그렇지 않다. Error가 전달되면 무조건 throw를 발생시켜 개발자가 적절하게 Error를 처리하여야 한다. 하지만 이것은 Java의 Exception Handling과 매우 유사하기 때문에, 오히려 정적 언어에 익숙한 개발자들에겐 친숙한 방법이라고 볼 수 있다.
 
 ```javascript
 co(function*(){
