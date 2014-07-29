@@ -43,7 +43,7 @@ Node.js에서 **callback**과 **error handling** 겁나 구려!
 
 Expressive middleware for node.js using **generators** http://koajs.com  
 
-' **Generators**를 사용하는 더 표현적인 미들웨어 ' 라고 한다. 더 자세한 설명을 보면 
+**Generators**를 사용하는 더 표현적인 미들웨어, 라고 한다. 더 자세한 설명을 보면 
 
 Expressive middleware for node.js using generators **via co** to make web applications and APIs more enjoyable to write.
 
@@ -77,11 +77,11 @@ next()라는 키워드를 사용하는 것이, 이미 많이 사용하고 있는
 
 # Co
 
-**[Co](https://github.com/visionmedia/co)**는 TJ가 만든, 방금 설명한 Generators를 이용해 flow-control 모듈이다. Co라는 이름은 아마도 **Coroutine**에서 따온 게 아닌가 싶은데, Coroutine역시 Generators와 비슷한 개념이기 때문에 함께 찾아보면 Generators에 대해 이해하는데 도움이 될 것이다. (최근엔 Unity3D에서 많이 사용되는 것으로 보인다.)
+**[Co](https://github.com/visionmedia/co)**는 TJ가 만든, 방금 설명한 Generators를 이용한 flow-control 모듈이다. Co라는 이름은 아마도 **Coroutine**에서 따온 게 아닌가 싶은데, Coroutine역시 Generators와 비슷한 개념이기 때문에 함께 찾아보면 Generators에 대해 이해하는데 도움이 될 것이다. (최근엔 Unity3D에서 많이 사용되는 것으로 보인다.)
 
 * [Coroutine이란?](https://www.google.co.kr/search?q=coroutine)
 
-그럼 Co는 Generators를 이용하여 어떻게 flow-control을 하겠다는 것일까? 오, 맙소사! 이건 마치 Callback Hell을 위한 은탄환(Siver Bullet)이잖아?! 
+그럼 Co는 Generators를 이용하여 어떻게 flow-control을 하겠다는 것일까? 오, 맙소사! 이건 마치 Callback Hell을 위한 은탄환(Siver Bullet)일지도 모르겠다.
 
 
 # Callback Hell과 Co
