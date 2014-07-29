@@ -277,5 +277,6 @@ Generators, Co, Koa.js 등에 대해 더 자세히 알고 싶은 분들은 아�
 * [Mozilla Developer Network : Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 * [Koa.js Github](https://github.com/koajs/koa)
 * [Co Github](https://github.com/visionmedia/co)
+* [Callbacks vs Coroutines](https://medium.com/code-adventures/callbacks-vs-coroutines-174f1fe66127)
 * [Why coroutines won’t work on the web](http://calculist.org/blog/2011/12/14/why-coroutines-wont-work-on-the-web/)
 * [Analysis of generators and other async patterns in node](http://spion.github.io/posts/analysis-generators-and-other-async-patterns-node.html)
