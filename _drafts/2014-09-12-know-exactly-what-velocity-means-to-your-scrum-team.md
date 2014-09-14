@@ -8,134 +8,38 @@ tags: [Agile, Scrum, Velocity, 애자일, 스크럼, 벨로시티, 추정]
 comments: true
 share: true
 ---
-# 당신의 스크럼팀을 위한 벨로시티의 정확한 의미
-[원문] [Know Exactly What Velocity Means to Your Scrum Team](http://www.mountaingoatsoftware.com/blog/know-exactly-what-velocity-means-to-your-scrum-team) by Mike Cohn
+# 스크럼 팀을 위한 벨로시티의 정확한 의미
+## by Mike Cohn
 
-본문은 원래 Mike Cohn의 월간 뉴스레터에 실렸던 글입니다. 만약 이 글이 맘에 든다면, [이곳](http://mountaingoatsoftware.us4.list-manage.com/subscribe?u=69aab24b249d49f4eade10a9c&id=0b477a3c16)에서 메일링에 가입해주세요. 블로그에 포스팅 되기 전에 글을 배달 받을 수 있습니다.
+---
 
-When talking about it informally, I define velocity as simply a measure of how fast a team is going. And for most purposes, this definition works quite well. However, it creates confusion on some of the finer points of what should count in calculating a team's velocity. This confusion comes about because there are really two more precise ways of defining velocity. Let's see what they are.
+본문([Know Exactly What Velocity Means to Your Scrum Team](http://www.mountaingoatsoftware.com/blog/know-exactly-what-velocity-means-to-your-scrum-team))은 원래 Mike Cohn의 월간 뉴스레터에 실렸던 글입니다. 만약 이 글이 마음에 든다면, [이곳](http://mountaingoatsoftware.us4.list-manage.com/subscribe?u=69aab24b249d49f4eade10a9c&id=0b477a3c16)에서 메일링에 가입해주세요. 블로그에 포스팅 되기 전에 글을 전달 받을 수 있습니다.
 
-비공식적으로 벨로시티에 대해 이야기 할 때, 나는 그것을 단순이 팀이 얼마나 빨리 움직이는지에 대한 척도로 정의합니다. 대부분의 경우에 이 정의는 잘 적용 됩니다. 그러나 팀의 속도를 계산하는 계산해야하는지의 미세한 점의 일부에 혼란을 만듭니다. 이 혼란이 속도를 정의하는 두 가지 더 정확한 방법이 정말 있기 때문에에 대해 제공됩니다. 의 어떤 정보가 있는지 알아 봅시다. 
+비공식적으로 벨로시티에 대해 이야기 할 때, 나는 단순히 팀이 얼마나 빨리 움직이는지에 대한 척도로 정의합니다. 대부분의 경우에 이 정의는 잘 적용 되지만, 벨로시티를 어떻게 계산하는지에 대한 미묘한 차이에 따라 혼란이 생깁니다. 이 혼란은 벨로시티를 정의하는 둘 이상의 명확한 방법이 있기 때문에 발생합니다. 그들이 무엇인지 살펴 봅시다.
 
+1. 벨로시티는 팀이 한 스프린트에 얼마나 많은 기능을 제공 할 수 있는지에 대한 척도입니다.
+2. 벨로시티는 팀이 한 스프린트에 아이디어들을 새로운 기능으로 만들어 낼 수 있는 능력에 대한 척도입니다. 
 
-1) Velocity measures how much functionality a team delivers in a sprint.
-2) Velocity measures a team's ability to turns ideas into new functionality in a sprint.
+이들은 비슷하게 들릴 지 모르지만, 미묘한 차이가 있습니다. 예를 들면, 당신이 강에서 수영을 하고 있다고 가정합시다. 한 시간 후, 당신이 얼마나 이동했는지 측정했고, 시작 지점으로부터 2km 떨어져있었습니다. 애자일적인 측면에서 당신의 속도는 시간당, 혹은 수영의 스프린트가 한시간이라고 가정 할 경우 스프린트 당 2km라고 말할 수 있습니다. 
 
-Those may sound the same. They are subtly different. To see how, suppose you hop in a river and begin swimming. After an hour, you measure how far you've traveled, and you are 2 kilometers from where you began. In agile terms, we might want to call this your velocity and say you swim 2 kilometers per hour or per sprint, if a swimming sprint is an hour long.
-
-But, what if the river had been flowing at the rate of one kilometer per hour against you while you swam? In that case, you really swam 3 kilometers. Measured against the banks of the river, you've only moved two kilometers of physical distance. But while going forward two kilometers, you overcame being pushed backward one kilometer by the river.
+그러나 강물이 당신이 수영하는 방향과 반대로 시속 1km로 흐르고 있었다면 어떨까요? 이 경우, 당신은 실제로 3km를 수영했습니다. 강 밖에서 보면 물리적으로 2km만을 이동했지만, 당신이 2km만큼 수영하는 동안 1km 뒤로 밀려났기 때문입니다.
 
 ![swimmer](http://www.mountaingoatsoftware.com/uploads/blog/swimmer.jpg)
 
-So, is your velocity two or three? If we use our first definition—velocity is how much a team delivers in a sprint—then velocity is two. This swimmer delivered 2 kilometers of progress.
+그럼 이 경우에 벨로시티는 2일까요 3일까요? 우리가 첫번째 정의를 사용한다면 스프린트당 벨로시티는 2입니다. 이 수영하는 사람은 2km만을 이동했습니다.
 
-If we use our second definition—velocity is the ability to turn ideas into new functionality—then velocity is three. This swimmer has the ability to deliver 3 kilometers of progress per sprint, and we'd see that he was swimming in a lake with no current instead of a river.
+만약 우리가 두번째 정의를 사용한다면 3입니다. 당신이 흐름이 없는 호수에서 수영을 했다면 스프린트당 3km를 이동할 수 있었기 때문입니다.
 
-To see how this applies to an agile project, consider the issue of whether a team should earn velocity credit for fixing bugs during a sprint. A team that uses velocity to measure how much functionality is delivered in a sprint will not claim credit for bug fixes. No new functionality has been delivered. So no points are earned.
+이 차이는 애자일 프로젝트에서 스프린트 동안 버그를 수정과 리팩토링에 비용을 어떻게 할당하는지에 대한 문제에 빗대어 생각해볼 수 있습니다. 첫번째 정의를 사용하는 팀이라면 버그 수정과 리팩토링에 따로 비용을 할당하지 않습니다. 새로운 기능을 개발하지 않는다면 비용이 할당되지 않습니다.
 
-A team using defining velocity as the ability to turn ideas into functionality, on the other hand, will claim credit for bug fixes. Their logic is that the time spent on bug fixing could have been spend adding new functionality except the product owner prioritized different work for them.
+반면, 두번째 정의를 사용하는 팀은 버그 수정과 리팩토링에 위해 비용을 할당합니다. 그들의 논리는 버그 수정과 리팩토링이 Product Owner(PO)가 우선시하는 작업을 제외한 다른 새로운 기능을 개발하는 것과 같이 생각할 수 있다는 것입니다.
 
-For many teams, the two definitions will yield the same value. Values will differ most for teams doing work for which they are not taking velocity credit--usually teams doing things like a lot of bug fixing or doing large amounts of refactoring.
+많은 팀들의 경우 두 정의는 같은 결과를 낼 것입니다. 일반적으로 큰 버그 수정이나 많은 량의 리팩토링을 수행하면서 벨로시티 비용을 할당하지 않는 팀들에게서 큰 차이가 발생합니다. 
 
-Neither of these subtle differences in the definition of velocity is always better than the other. The one you use should largely depend on what you hope to learn by measuring it and by your expectations about the future.
+이 두 가지 정의는 그 차이가 미묘하기 때문에 어느 쪽을 선택해도 좋습니다. 당신은 그 중에서 당신이 추정을 통해 배우길 바라고 앞으로 기대하는 것이 따라 선택해야 합니다. 
 
-If you expect the future to be just like today—that is, the team will spend the same amount of time doing bug fixing, refactoring and the like as they do now, then using velocity as a measure of how much forward progress is made will be the right answer for you.
+당신이 변화를 바라지 않는다면, 팀은 버그 수정과 리팩토링 하는데 지금과 같은 시간을 사용할 것입니다. 그럼 벨로시티는 앞으로 얼마나 진행할 수 있는지에 대한 올바른 결과를 줄 것입니다. 
 
-However, if you expect the future to be different—perhaps the large refactoring and time spent fixing bugs will soon be over—then you may want to define velocity as the team's ability to turn ideas into functionality, and would then add to velocity the points given to those activities.
+하지만 당신이 앞으로 무언가 바뀌길 원한다면, 대규모 리팩토링과 버그 수정은 곧 없어질 것이고, 당신은 두번째 정의를 선택하고 싶을 것입니다. 그리고 그 활동들에 별도의 벨로시티 비용을 할당 할 것입니다.
 
-The most important thing is to clarify with everyone on the team, including the product owner and ScrumMaster, is exactly what your team means when they use the term “velocity.” Having a precise definition makes it very easy to answer questions that come up around what should be counted when measuring velocity.
-
-
-1) 속도 측정 팀은 스프린트에서 제공 얼마나 많은 기능을 제공합니다. 
-2) 속도는에는 스프린트의 새로운 기능에 대한 아이디어를 켤 수있는 팀의 능력을 측정합니다. 
-
-이들은 동일한 소리있다. 그들은 미묘하게 다릅니다. 어떻게 확인하려면 당신이 강물에 뛰어 수영을 시작한다고 가정합니다. 한 시간 후, 당신은 당신이 여행을 얼마나 멀리 측정, 당신은 당신이 시작된 곳에서 2km이다. 민첩한 측면에서, 우리는 당신의 속도를 호출 할 및 수영 질주 긴 시간 인 경우, 시간 당 또는 스프린트 당 2km 수영 말할 수 있습니다. 
-
-당신이 수영 반면, 강 당신에 대해 시간 당 일km의 비율로 무엇을 흐르는 된 경우? 이 경우, 당신은 정말 3km를 수영. 강 유역에 대하여 측정, 당신은 단지 물리적 거리의 이km를 이동했습니다. 앞으로 이km가는 동안, 당신은 일km 강에 의해 뒤로 밀려 극복했다. 
-
-! [수영] (http://www.mountaingoatsoftware.com/uploads/blog/swimmer.jpg) 
-
-그래서, 당신의 속도를 두 개 또는 세입니까? 우리가 사용하는 경우 우리의 첫 번째 정의 - 속도는 팀이 인 스프린트 - 다음 속도에서 제공하는 가격에 해당합니다. 이 수영 진행 2km를 전달했다. 
-
-우리가 사용하는 경우 두 번째 정의 - 속도가 새로운 기능 - 다음 속도로 아이디어를 할 수있는 기능은 세 가지입니다. 이 선수는 스프린트 당 진행 3km를 제공 할 수있는 능력을 가지고 있으며, 우리는 그가 대신 강 전류가와 호수에서 수영하는 것을 볼 것. 
-
-이 애자일 프로젝트에 적용하는 방법, 스프린트 동안 버그를 수정을위한 속도 학점을 취득해야하는지 여부를 팀의 문제를 생각해 볼 수 있습니다. 속도를 사용하는 팀은 버그 수정에 대한 크레딧을 주장하지 않습니다 스프린트에 전달 얼마나 많은 기능을 측정합니다. 새로운 기능이 제공되지 않았습니다. 그래서 더 포인트는 적립되지 않습니다. 
-
-다른 한편으로는, 기능에 아이디어를 할 수있는 능력으로 정의 속도를 사용하는 팀은 버그 수정에 대한 크레딧을 주장하는 것입니다. 이들 논리는 시간이 제품 소유자 제외한 새로운 기능을 추가하고 소비를 가질 수 버그 수정에 소요 그들을 위해 다른 작업을 우선한다는 것이다. 
-
-여러 팀,이 정의는 동일한 값을 산출 할 것이다. 일반적으로 버그 수정이 많이 같은 일을하는 팀이나 리팩토링 많은 양의 일을 - 값은 속도 크레딧을 복용하지 않은 일을하고 팀을 위해 가장 다릅니다. 
-
-속도의 이러한 정의에 미묘한 차이 중 어떤 것도 다른 것보다 항상 더 낫다. 당신이 주로 당신이 그것을 측정하고 미래에 대한 기대에 의해 배울 희망에 따라 달라한다 사용하는 일. 
-
-당신은 미래가 바로 오늘, 즉, 팀은 버그 수정, 리팩토링 등을하고 같은 시간을 보낼 것처럼 될 것으로 예상 한 경우에는 다음 만들어 조금씩 앞으로 진보의 척도로 속도를 사용하여, 지금 같은 것 당신을위한 올바른 해답이 될 수. 
-
-당신이 기대하는 경우, 미래는 - 다른 아마도 지도록하기 위해서는 기능에 대한 아이디어를하는 팀의 기능과 같은 속도를 정의 할 수 있습니다 이상 - 다음 큰 리팩토링 시간 동안 고정 버그는 곧있을 것 한 다음 속도에 포인트를 추가합니다 이러한 활동에 부여. 
-
-가장 중요한 것은 그들이 용어를 사용할 때 팀이 의미 정확히 무엇이며, 제품 소유자와 스크럼 마스터를 포함하여 모든 팀원과 명확하게하는 것입니다 "속도."정확한 정의는 매우 쉽게 주변에 올 질문에 대답 할 수 데 속도를 측정 할 때 어떻게 계산해야합니다.
-
-
-
-
-아래는 원래 마이크 콘의 월간 뉴스 레터에 게재되었습니다. 당신이 읽고 있는 걸 좋아한다면, 그것은 여기에서는 블로그에 게재되기 전에 이 콘텐츠는 수신 트레이의 주에 전달 갖게 사인 정리해 주세요. 
-
-비공식적으로 그것에 대해 말할 때 나는 팀이 일고 있는 어느 정도의 속도 단순히 지표로 속도를 정의합니다. 그리고 대부분의 목적을 위해 이 정의는 매우 잘 기능합니다. 그러나 그것은 팀의 속도를 계산할 때에 카운트해야 하는지에 대한 세세한 점 몇가지 혼란을 작성합니다. 이 혼란은 속도를 정의하는 2개의 정확한 방법은 실제로 존재하기 위해 약 온다. 것은 그들이 무엇인지 봅시다. 
-
-1)속도 대응 팀이 스프린트에서 전달해 어느 정도의 기능성. 
-2)속도는에는, 스프린트의 새 기능에 대한 아이디어를 돌리고 팀의 능력을 측정한다.
-
-이들은 같게 들릴지도 모릅니다. 그들은 미묘하게 다르다. 어떻게 확인하려면 강에서 튀어오르는 수영을 시작했다고 합니다. 시간 후, 당신이 여행해 온 어느 정도까지 측정한다 당신이 시작된 곳에서 2킬로입니다. Agile면에서 이것은 당신의 속도를 호출하고 싶다고 수영 스프린트가 긴 시간인 경우는 시간마다 또는 스프린트마다 2km를 헤엄치려고 할지 모른다. 
-
-당신이 수영 하다 그러나 강이 당신에 대해 매시 1km의 비율로 무엇이 나돈 경우는 어떻게 됩니까?그 경우 당신은 정말 3km를 헤엄쳤다. 강변에 대해 측정, 당신만의 물리적 거리의 2km를 이동했습니다. 전진 2km를 하고 있는 동안 그러나 당신은 1km의 강에 따라 후방에 밀려극복했다. 
-
-![수영](http://www.mountaingoatsoftware.com/uploads/blog/swimmer.jpg) 
-
-그러니까, 당신의 속도는 두 세 있습니까?우리가 사용하고 있는 경우는 우리의 최초의 정의는 속도는 팀이 두개인 스프린트·그 후의 속도로 실현해 어느 정도이다. 이 수영 선수는 진행의 2킬로를 달성했습니다. 
-
-우리가 사용하는 경우는, 당사번째 정의, 속도는 새로운 기능, 그리고 속도에 아이디어를 켜는 능력이 있다 3입니다. 이 수영 선수는 스프린트별 진척 상황의 3km를 제공하는 능력을 가지고 있으며 우리는 그가 대신 강은 전류와 호수에서 헤엄치고 있던 점을 참조해 주세요. 
-
-이는 아쟈일프로지에크토에 어떻게 적용되는지, 스프린트 중에 오류를 수정하기 위한 속도 단위를 취득할 필요가 있는지, 팀의 문제를 검토 참조해 주세요. 속도를 사용하는 팀은 버그 수정을 위한 신용을 주장하지 않습니다 스프린트에서 전달되고 있는 어느 정도의 기능성을 측정한다. 아니오, 새로운 기능이 제공되지 않는다. 그래서 몇 포인트가 확보되지 않습니다. 
-
-한편 기능성에 아이디어를 유효하게 하는 능력으로 정의 속도를 사용하는 팀은 버그 수정을 위한 신용을 청구하겠습니다. 그들의 논리는 시간은 제품의 소유자를 제외하고 새로운 기능을 추가하고 지출을 줄 가능성이 버그 수정에 들인 그들을 위해 별도의 작업을 우선한다. 
-
-많은 팀을 위해 두 정의는 같은 값이 얻을 수 있습니다. 통상, 버그 수정의 많은 같은 것을 해 팀을, 리팩터링을 대량으로 실시하는 값이 그들은 속도의 신용을 취하지 않고 있기 때문에 일을 하고 있는 팀의 대부분이 다릅니다. 
-
-속도의 정의에 이들의 미묘한 차이 어느 쪽도 보다 항상 뛰어납니다. 당신은 주로 당신이 그것을 측정함으로써 및 장래에 대한 기대에 의한 배우기를 바라는 것에 의존해야 할 사용하는 것. 
-
-장래는 마침 오늘 즉, 팀은 버그 수정, 리팩터링 등을 하고 같은 시간을 보내게 됩니다게 되는 것이 예상될 경우 그것들은 그것으로 생성되고 어느 정도의 전진의 척도로서 속도를 사용하여 지금 그렇게 됩니다 당신의 위한 올바른 답이다. 
-
-당신이 기대한다면 장래는 달리 아마 할 수 있고 기능에 대한 아이디어를 유효하게 하는 팀의 능력으로 속도를 정의할 수 있는 과 그 후 대리팩터링과 시간 소비한 버그 수정은 바로가 되고 이후 속도에 포인트를 추가합니다 이들의 활동에 주어졌다. 
-
-가장 중요한 것은 그들이 말을 사용할 때 당신의 팀의 의미를 정확히 하고 제품의 소유자와 스크럼 마스터를 포함해 팀들과 함께 밝힘으로써 "베로시티"의 정확한 정의는 그것이 매우 쉽게 주위에 나오는 질문에 대답할 수 있습니다 가진 속도를 측정할 때 무엇이 카운트되어야 한다.
-
-
-
-아래는 원래 마이크 콘의 월간 뉴스 레터에 게재되었습니다. 당신이 읽고있는 것을 좋아한다면, 여기에서는 블로그에 게재되기 전에이 콘텐츠는받은 편지함 주에 전달 갖도록 가입하십시오. 
-
-비공식적으로 그것에 대해 얘기했을 때, 나는 팀이 일어나고 얼마나 빨리 단순히 지표로 속도를 정의합니다. 그리고 대부분의 목적이 정의는 매우 잘 작동합니다. 하지만 팀의 속도를 계산할 때 계산해야하는지의 좋은 점 몇 가지 혼란을 만듭니다. 이 혼란은 속도를 정의하는 두 개의 정확한 방법은 실제로 존재하는 약 온다. 것은 그들이 무엇인지 살펴 보자. 
-
-1) 속도 대책 팀이 스프린트에 전달 얼마나 기능. 
-2) 속도는는 스프린트의 새로운 기능에 대한 아이디어를 도는 팀의 능력을 측정한다. 
-
-이들은 같은 들릴지도 모릅니다. 그들은 미묘하게 다르다. 어떻게 확인하려면 강에서 홉, 수영을 시작했다고합니다. 시간 후, 당신이 여행하고 온 어느 정도까지 측정하고 당신이 시작한 곳에서 2 킬로미터입니다. 민첩면에서는 이것은 당신의 속도를 호출하고 수영 스프린트가 긴 시간 일 시간마다 또는 스프린트마다 2 킬로미터를 수영 말할지도 모른다. 
-
-당신이 수영하면서 그러나 강이 당신에 대하여 시간당 1 킬로그램의 비율로 무엇이 흐르고 있던 경우는 어떻게됩니까? 만일 그렇다면, 당신은 정말 3 킬로미터를 수영했다. 강 유역에 측정, 당신은 단지 물리적 인 거리의 2 킬로미터를 이동했습니다. 전진 2 킬로미터를가는 동안 그러나 당신은 1 킬로미터의 강에 의해 뒤로 밀려 극복했다. 
-
-! [수영] (http://www.mountaingoatsoftware.com/uploads/blog/swimmer.jpg) 
-
-그래서 당신의 속도는 두세 있나요? 우리가 사용하고있는 경우는 우리의 첫 번째 정의는 속도는 팀이 2 개인 스프린트 그 속도로 실현 얼마나이다. 이 대원은 진행의 2 킬로미터를 달성했습니다. 
-
-우리가 사용하는 경우는 당사 번째 정의 속도는 새로운 기능과 속도에 아이디어를 선택하는 능력이 3입니다. 이 헤엄 치는 사람은 스프린트마다 진행 3 킬로미터를 제공하는 능력을 가지고 있으며, 우리는 그가 대신 강은 전류와 호수에서 수영 있었다는 것을 참조 해주세요. 
-
-이것은 애자일 프로젝트에 어떻게 적용되는지 스프린트 중 버그를 수정하기위한 속도 단위를 취득 할 필요가 있는지, 팀의 문제를 검토 참조하십시오. 속도를 사용하는 팀은 버그 수정에 대한 크레딧을 주장하지 않습니다 스프린트에서 전달되는 얼마나 기능을 측정한다. 아니 새로운 기능이 제공되지 않는다. 그래서 무엇 포인트가 적립되지 않습니다. 
-
-한편, 기능성 아이디어를 활성화하는 능력으로 정의 속도를 사용하는 팀은 버그 수정을위한 신용을 청구하겠습니다. 그들의 논리는 시간은 제품의 소유자를 제외하고 새로운 기능을 추가 지출을 줄 수 버그 수정에 소요 된 그들을 위해 다른 작업을 우선하고있는 것이다. 
-
-많은 팀을 위해 두 정의는 동일한 값을 얻을 수 있습니다. 일반적으로 버그 수정의 많은 같은 일을하고 팀을과 리팩토링을 많이 할 - 값들이는 속도 공로를하지 않으며 있기 때문에 일을하고있는 팀의 대부분이 다릅니다 . 
-
-속도의 정의에 이러한 미묘한 차이의 모두 다른 사람보다 항상 우수합니다. 당신은 주로 당신이 그것을 측정함으로써, 그리고 미래에 대한 기대에 의해 배울 것을 희망하고 있는지에 의존해야 사용할 것. 
-
-미래는 오늘, 즉 팀은 버그 수정, 리팩토링 등을하고 같은 시간을 보낼 수 있습니다있게 될 것으로 예상되는 경우, 그들은 그 때 만들어져 얼마나 전진의 척도로 속도 를 사용하여 지금 그렇듯이됩니다 당신을 위해 정답이다. 
-
-당신이 기대한다면, 미래는 다른, 아마도 수 기능에 대한 아이디어를 활성화하는 팀의 능력으로 속도를 정의 할 수,과 그 큰 리팩토링과 시간 할애 버그 수정 곧되어, 그 후 속도에 포인트를 추가합니다 이러한 활동에 주어졌다. 
-
-가장 중요한 것은 그들이 말을 사용할 때, 당신의 팀의 의미를 정확하게 제품 소유자와 스크럼 마스터를 포함한 팀 모두와 함께 공개함으로써 "벨로 시티"의 정확한 정의는 그것이 아주 쉽게 주위에 나오는 질문에 대답 할 수 있습니다있는 속도를 측정 할 때 무엇이 계산되어야한다.
+가장 중요한 것은 Product Owner와 Scrum Master를 포함한 팀의 모든 구성원들이 '벨로시티' 라는 용어를 정확히 어떤 의미로 사용할 것인지 명확히 하는 것입니다. 명확한 정의는 벨로시티 측정해야 할 때마다 돌아오는 질문들의 대답이 될 수 있습니다.
