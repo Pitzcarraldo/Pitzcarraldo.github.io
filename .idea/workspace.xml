@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1230ff8-d1be-414c-82f5-779f198d190f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_029.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_032.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_036.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_048.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_057.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_072.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/icon_512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/about-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/background_image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/so-simple-sample-image-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/so-simple-sample-image-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/so-simple-sample-image-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/so-simple-sample-image-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg/so-simple-sample-image-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/javascripts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-04-04-mahout-cookbook.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-12-26-callback-hell-promise-pattern.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-02-06-intrinsic-state-in-javascript.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-04-30-RIP-TDD.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-05-08-goodbye-scrum-hello-kanban.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-20-Java-tips.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-27-generators-and-co.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-09-12-know-exactly-what-velocity-means-to-your-scrum-team.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-08-david-evans-as-a-i-want-so-that-considered-harmful.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-02-14-move-to-medium.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_base.scss__" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_layout.scss__" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/_bourbon-deprecated-upcoming.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/_bourbon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_directional-values.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_ellipsis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_font-family.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_html5-input-types.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_position.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_prefixer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_retina-image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_timing-functions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_triangle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/addons/_word-wrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_animation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_appearance.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_backface-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_background-image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_background.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_border-image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_box-sizing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_calc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_columns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_flex-box.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_font-face.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_font-feature-settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_hidpi-media-query.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_hyphens.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_image-rendering.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_keyframes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_linear-gradient.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_perspective.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_placeholder.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_radial-gradient.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_transform.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_transition.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/css3/_user-select.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_assign.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_color-lightness.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_flex-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_golden-ratio.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_grid-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_modular-scale.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_px-to-em.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_px-to-rem.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_strip-units.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_tint-shade.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_transition-property-name.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/functions/_unpack.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_convert-units.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_gradient-positions-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_is-num.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_linear-angle-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_linear-gradient-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_linear-positions-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_linear-side-corner-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_radial-arg-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_radial-gradient-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_radial-positions-parser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_render-gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_shape-size-stripper.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/helpers/_str-to-num.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/settings/_asset-pipeline.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/settings/_prefixer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/bourbon/settings/_px-to-em.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.fitvids.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/min/highlight.pack-ck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/min/index-ck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/min/jquery.fitvids-ck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/min/jquery.ghostHunter.min-ck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/min/readingTime.min-ck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/readingTime.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="Pitzcarraldo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Pitzcarraldo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="2016-02-14-move-to-medium.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-02-14-move-to-medium.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="272">
+                <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/_posts/2016-02-14-move-to-medium.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pitzcarraldo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pitzcarraldo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pitzcarraldo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pitzcarraldo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pitzcarraldo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1230ff8-d1be-414c-82f5-779f198d190f" name="Default" comment="" />
+      <created>1455446371679</created>
+      <option name="number" value="Default" />
+      <updated>1455446371679</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_includes/disqus_comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.thor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-14-move-to-medium.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="272">
+            <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+  </component>
+</project>
